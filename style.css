@@ -1,5 +1,6 @@
-.body{
-  background-color: #000;
+body{
+  background-color: #01ffb37c;
+  /* background-image: ; */
 }
 .header{
   max-width: 100%;
@@ -18,7 +19,8 @@
   text-align: center;
   border-radius: 9px;
   margin-left: 150px;
-}.txt2{
+}
+.txt2{
   font-family: monotype,cursive;
   font-size: 14px;
   position: absolute;
@@ -58,7 +60,7 @@
   font-family: monotype,cursive;
   font-size: 14px;
   position: absolute;
-  color: goldenrod;
+  color: rgb(0, 0, 0);
   width: 60px;
   height: 23px;
   background-color: white; 
@@ -80,4 +82,96 @@ border: 1px solid #000;
 margin-top: 35px;
 margin-left: 655px;
 
+}
+
+
+.korzina{
+  padding-top:  7px;
+  margin-left: 1500px;
+  
+
+}
+
+.midle{
+  margin-left: -15px;
+  margin-top: 75px;
+  width: 1919px;
+  height: 600px;
+  background-color: black;
+}
+
+.text-midle-bot{
+  margin-top: 40px;
+  color: rgb(255, 0, 0);
+  
+}
+
+.text-midle-bot1{
+margin-left: 450px;
+font-size: 25px;
+margin-top: 50px;
+}
+
+
+.text-midle-bot2{
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.text-midle-bot3{
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.text-midle-bot4{
+  font-size: 25px;
+  margin-left: 500px;
+}
+
+.text-midle-bot5{
+position: absolute;
+margin-top: -9px;
+text-align: 7px;
+}
+
+.poloska{
+  width: 980px;
+  border: 1px solid #000000;
+  margin-top: 0px;
+  margin-left: 450px;
+}
+
+.slider{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.next-button{
+  margin-top: 100px;
+  right: 10px;
+}
+.prev-button{
+  margin-top: 100px;
+  left: 10px;
+ 
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
 }
